@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Connect Four</title>
+    <script type="module" src="connect4.js"></script>
+  </head>
+  <body>
+    <h1 class="game-title">Connect Four</h1>
+      <div class="controls">
+        <button id="loadGameBrowser" class="button" disabled>Load from Browser</button>
+        <button id="saveGameBrowser" class="button">Save to Browser</button>
+        <button id="newGame" class="button">New Game</button>
+        <button id="undoMove" class="button">Undo Move</button>
+        <button id="loadGameServer" class="button">Load from Server</button>
+        <button id="saveGameServer" class="button">Save to Server</button>
+      </div>
+      <p id="currentPlayer" class="game-info"></p>
+      <p id="endScore" class="game-info"></p>
+    <div class="app"></div>
+  </body>
+</html>
