@@ -1,0 +1,14 @@
+{
+  "name": "dublin-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "spec/jasmine_examples/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.1.0"
+  }
+}
